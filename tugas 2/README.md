@@ -51,13 +51,14 @@ NIM : 1203210131
    ```bash nano /etc/hosts ```
    ![11](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/e651ae5a-3d3f-4c01-a914-304fe94721fe)
    ```bash sudo nano /etc/nginx/sites-available/sister.local ```
-   ![12](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/51958354-bba8-46d7-aafa-29ede8fde7de)
+   ![12](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/22f31ce9-2eb3-44b3-960a-6a1564c60924)
    ```bash nginx -t ```
    ```bash nginx -s reload ```
    ![13](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/26ca97ab-229f-4827-9820-8eca8845eb6f)
    ```bash curl -i app.sister.local ```
    ![14](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/140e9405-9ee1-4411-80ba-a9f26928fedc)
    ```bash tail -f /var/log/nginx/app.sister.local-access.log ```
+   ![15](https://github.com/panskeeh/Sistem-Terdistribusi/assets/95496180/bde65cdd-8283-4570-afd3-3e7e3ff2279d)
 
 
 
